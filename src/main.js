@@ -9,18 +9,9 @@ import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)
 
-//vant tabbar
-import Vant from 'vant';
-import 'vant/lib/index.css';
-
-Vue.use(Vant);
 //echarts
 import * as echarts from "echarts"
 Vue.prototype.$echarts = echarts
-
-//jsonp
-import * as VueJsonp from 'vue-jsonp'
-Vue.use(VueJsonp)
 
 Vue.config.productionTip = false
 
